@@ -13,7 +13,7 @@ import {stringify} from "querystring";
  */
 const request = extend({
   credentials: 'include', // 默认请求是否带上cookie
-  prefix: process.env.NODE_ENV ==="production" ? 'http://124.220.92.136/':undefined
+  prefix: process.env.NODE_ENV ==="production" ? 'http://127.0.0.1':undefined
   // requestType: 'form',
 });
 
